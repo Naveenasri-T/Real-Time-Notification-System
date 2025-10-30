@@ -37,7 +37,7 @@ async def get_messages():
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     """WebSocket endpoint that allows clients to receive real-time notifications."""
-    # ✅ Get the client type from the query string (default to 'user')
+    #  Get the client type from the query string (default to 'user')
     client_type = websocket.query_params.get("client", "user")
 
     try:
