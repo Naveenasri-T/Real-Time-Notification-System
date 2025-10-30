@@ -235,6 +235,3 @@ Key files to modify:
 - `docker-compose.yml` - Change ports or add services
 - `Dockerfile` - Modify container setup
 
-## License
-
-See LICENSE file for details.
